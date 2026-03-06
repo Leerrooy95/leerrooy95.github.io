@@ -32,3 +32,5 @@ I developed a Flask-based web application to solve a specific legislative transp
 
 ## Conclusion
 > My objective is to apply my physical reconnaissance background and my newly developed AI engineering skills to track online harms, verify facts, and force systemic transparency.
+
+**Last updated: March 6, 2026**
