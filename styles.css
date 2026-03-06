@@ -125,7 +125,8 @@ img {
     transition: color var(--transition);
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-links a.active {
     color: var(--color-text-bright);
 }
 
