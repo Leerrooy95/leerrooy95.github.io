@@ -66,7 +66,6 @@ document.addEventListener('DOMContentLoaded', () => {
         '.skill-group',
         '.project-card',
         '.timeline-item',
-        '.moonshot-grid',
         '.contact-content',
     ];
 
