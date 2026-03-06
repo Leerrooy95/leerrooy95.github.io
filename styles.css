@@ -618,14 +618,6 @@ img {
     color: var(--color-text-bright);
 }
 
-/* --- Why Moonshot --- */
-.moonshot-grid {
-    max-width: 800px;
-}
-
-.moonshot-text p {
-    margin-bottom: 20px;
-}
 
 .alignment-cards {
     display: grid;
