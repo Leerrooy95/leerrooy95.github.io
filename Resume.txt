@@ -1,0 +1,226 @@
+================================================================================
+                              AUSTIN SMITH
+         AI Pipeline Engineer  |  OSINT Analyst  |  Quantitative Research
+================================================================================
+Arkansas, USA  |  austinwarriors5@gmail.com
+GitHub: github.com/Leerrooy95         Portfolio: leerrooy95.github.io
+Store:  store.regulatedfriction.me    Projects:  regulatedfriction.me
+================================================================================
+
+
+PROFESSIONAL SUMMARY
+────────────────────
+AI pipeline engineer and OSINT analyst with 10+ years of combined experience in
+physical reconnaissance, high-security observation, and digital intelligence
+research. Trained as an Army Cavalry Scout (19D) and seasoned across federal,
+state, and private security environments. Since October 2025, independently
+built and shipped two commercial products — a live SaaS mechanism classifier
+(Friction Breaker) and a configurable OSINT intelligence pipeline sold at
+$50/unit — alongside 15+ open-source repositories with reproducible,
+statistically rigorous findings. Available for contract work in custom pipeline
+development, procurement automation, document processing systems, and
+AI-powered research tools.
+
+
+CORE COMPETENCIES
+─────────────────
+
+OSINT & Threat Intelligence
+  Open-source intelligence collection & analysis · Adversarial influence
+  tracking · Multi-platform narrative monitoring · Source triangulation &
+  verification · Threat assessment & risk documentation · Temporal pattern
+  detection · Multi-AI cross-verification methodology
+
+Quantitative Methods
+  Pearson & Spearman correlation · Permutation & bootstrap testing · Granger
+  causality & lag analysis (F = 32.49, p < 0.0001) · K-means & hierarchical
+  clustering · Chi-square & Mann-Whitney U · Causal inference (DoWhy)
+
+AI & Automation
+  Multi-agent LLM pipelines (Claude, Llama Scout 17B) · GLiNER2 local entity
+  extraction (zero API cost) · Brave Search API + web-grounded fact
+  verification · Document parsing (PDF / DOCX / OCR) · AI safety & bias
+  detection · Prompt engineering & verification layers
+
+Development & Data Engineering
+  Python (Pandas, SciPy, Statsmodels, NetworkX) · Flask with CSRF, rate
+  limiting & CSP headers · Chart.js dashboards · PyVis interactive graph
+  rendering · GitHub Actions CI/CD · DigitalOcean & Render deployment ·
+  HTML / CSS / JavaScript · Git / GitHub (15+ public repositories)
+
+
+EXPERIENCE
+──────────
+
+Independent Developer & OSINT Researcher            October 2025 – Present
+Self-Directed · store.regulatedfriction.me
+
+  • Built and shipped Friction Breaker — a live commercial SaaS mechanism
+    classifier with Discord OAuth, tiered subscription pricing, and a
+    73-mechanism taxonomy across 8 categories; powered by Claude Sonnet 4.6
+    and GLiNER2 local entity extraction.
+
+  • Designed an 8-stage government bid solicitation pipeline with PDF/DOCX/OCR
+    document parsing, structured requirement extraction, bid/no-bid decision
+    logic, trade-specific pricing engines, and portal submission automation —
+    sold and deployed for a Missouri contracting business.
+
+  • Built and commercialized a 10-stage OSINT intelligence pipeline (deploy in
+    under 15 minutes, $50 one-time purchase) using Brave Search API + Claude,
+    GLiNER2 + Llama Scout 17B dual-engine entity extraction, and NetworkX +
+    PyVis interactive relationship graphs; runs twice daily via GitHub Actions
+    with no servers or databases.
+
+  • Identified statistically significant correlations (r = 0.6196, p = 0.0004)
+    between geopolitical friction events and institutional responses across 66
+    verified event pairs; validated through 16 independent stress tests using
+    Granger causality, permutation testing, bootstrap, ANOVA, and DoWhy causal
+    inference.
+
+  • Conducted quantitative AI bias research documenting a 207:1 keyword-
+    frequency disparity across AI platforms, with cross-platform verification
+    and documented asymmetric guardrail application.
+
+  • Built a legislative transparency tool (Flask + Anthropic API) with custom
+    meaning-drift detection that automatically flags intent shifts in legal
+    language translations; deployed live on Render.
+
+  • Deployed automated Federal Register and DOJ press release scrapers on
+    DigitalOcean feeding a live intelligence dashboard; built BYOK OSINT
+    chatbot with CSRF protection, rate limiting, and encrypted session
+    management.
+
+  • Published 15+ public repositories with reproducible findings, open
+    datasets, and full methodology — including openly documented failed
+    predictions and methodological corrections.
+
+
+Security & Reconnaissance Professional                          2014 – 2024
+US Army National Guard · Arkansas Department of Corrections · G4S Security
+
+  • Cavalry Scout (19D), Army National Guard — Enlisted at 17; trained at Fort
+    Benning in field reconnaissance, surveillance, and threat assessment in
+    high-stress, time-critical environments. Built core competencies in
+    observation, documentation, and separating actionable intelligence from
+    background noise.
+
+  • Correctional Officer, State Corrections — Monitored and documented
+    behavioral patterns in a controlled, high-security environment; developed
+    rigorous observational discipline and situational awareness under
+    institutional accountability frameworks.
+
+  • Physical Security Specialist, G4S — Conducted environmental monitoring,
+    incident documentation, and protocol-driven threat response for private
+    security operations.
+
+
+FEATURED PROJECTS
+─────────────────
+
+Friction Breaker  |  Commercial SaaS · Live
+regulatedfriction.me  |  github.com/Leerrooy95/Friction_Breaker
+
+  Live mechanism classifier and countermeasure engine. Users paste text (bills,
+  executive orders, news articles) and the pipeline identifies mechanisms across
+  a 73-entry, 8-category taxonomy, flags novel mechanisms not yet catalogued,
+  and generates countermeasure analysis with feasibility and durability scoring.
+  Discord OAuth, tiered subscription pricing ($0–$25/mo), BYOK open-source
+  version available. Tiers: Observer (3/mo, free) · Supporter (20/mo, $5) ·
+  Sustainer (60/mo, $10) · Analyst (200/mo, $25).
+  Stack: Python · Flask · Claude Sonnet 4.6 · GLiNER2 · Discord OAuth ·
+         Patreon · Creem
+
+
+Government Bid Solicitation Pipeline  |  Procurement Automation
+Available on request: austinwarriors5@gmail.com
+
+  8-stage automated bid response system for small service contractors. Ingests
+  solicitations from email or portal upload; parses PDFs, DOCX, and scanned
+  documents via OCR; extracts structured requirements (insurance, bonding,
+  forms, pricing format); applies configurable bid/no-bid decision rules;
+  builds trade-specific pricing from templates; and generates 95%-ready bid
+  packages with compliance checklist. Configurable for any trade, service area,
+  or state portal.
+  Stack: Python · pdfplumber · python-docx · OCR · Claude · GitHub Actions
+
+
+The Regulated Friction Project  |  Live OSINT Dashboard  (v12.3)
+regulatedfriction.me  |  github.com/Leerrooy95/The_Regulated_Friction_Project
+
+  Automated intelligence pipeline tracking temporal correlations between
+  geopolitical "friction" events and institutional capital flows. Processed 8
+  years of data across 66 verified event–response pairs; identified r = 0.6196
+  (p = 0.0004) with a 7-day median response lag. Convergence correlation:
+  r = 0.6685 (p < 0.0001, n = 229 weeks). Validated through 16 independent
+  stress tests by Claude Opus 4.6. Nine-tab live dashboard with interactive
+  entity graphs, convergence detection, and public prediction tracker.
+  Stack: Python · Brave Search API · Claude · GLiNER2 · Llama Scout 17B ·
+         NetworkX · PyVis · Chart.js · GitHub Actions
+
+
+Bill Translator  |  Civic Technology · Deployed
+bill-translator.onrender.com  |  github.com/Leerrooy95/Bill_Translator
+
+  Flask app that rewrites dense legal text to 8th-grade readability while
+  preserving legal intent. Built in response to Arkansas Act 602. Features
+  meaning-drift detection, three translation modes, automated Flesch-Kincaid
+  scoring, and 31 automated tests.
+  Stack: Python · Flask · Anthropic API · Render
+
+
+UVB-76 Structured Signal Analysis  |  Signal Intelligence
+github.com/Leerrooy95/UVB-76-Structured-Signal-Analysis
+
+  15-year empirical analysis of Russia's UVB-76 shortwave station transmission
+  timing patterns. K-means clustering and permutation testing (p < .0005)
+  identified four distinct operational modes and a documented shift from
+  training-cycle patterns to event-driven signaling correlated with real-world
+  military operations.
+  Stack: Python · K-means Clustering · Permutation Testing · Time Series
+
+
+State Policy Analysis  |  Policy Research  (v1.4)
+github.com/Leerrooy95/State_Policy_Analysis
+
+  Tracks 42 federal funding withholding events across 27 states by data center
+  policy posture. Six statistical tests (ANOVA, Kruskal-Wallis, DoWhy causal
+  inference), with transparent corrections of prior findings.
+  Stack: Python · SciPy · DoWhy · GitHub Actions
+
+
+OSINT ChatBot  |  Deployed
+personal-chatbot-qej0.onrender.com  |  github.com/Leerrooy95/OSINT_ChatBot
+
+  BYOK Flask chatbot deployed on Render. Users supply their own Anthropic API
+  key (never stored server-side). Knowledge base injected at startup. Rate
+  limiting, CSRF protection, DOMPurify sanitization, full security headers.
+  Stack: Python · Flask · Anthropic API · Render
+
+
+TRAINING & EDUCATION
+────────────────────
+
+Associate of Applied Science — Computer Information Systems  Fall 2025–Present
+  Arkansas College  |  Academic Honors, First Semester
+
+Cavalry Scout (19D MOS) — Advanced Individual Training                    2012
+  Fort Benning, Georgia  |  US Army National Guard
+
+Self-Directed Technical Training — Python, AI Engineering & Quant Methods
+  2025 – Present  |  Applied across 15+ public repositories & 2 commercial
+  products
+
+
+WHAT I'M OPEN TO
+────────────────
+  • Threat intelligence and OSINT analyst roles
+  • Investigative data support and newsroom partnerships
+  • Freelance OSINT / AI pipeline development and consulting
+  • Procurement automation and document processing systems
+  • Open-source collaboration on civic accountability tools
+
+
+================================================================================
+References and verification scripts available upon request.
+All statistical findings are publicly reproducible at github.com/Leerrooy95
+================================================================================
