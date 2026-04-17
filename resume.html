@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Austin Smith — Resume</title>
+<style>
+  /* =============================================
+     Austin Smith — Resume
+     Threat Intelligence Analyst (Quantitative Methods)
+     ============================================= */
+
+  @page {
+    size: letter;
+    margin: 0.6in 0.65in 0.6in 0.65in;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 9.5pt;
+    line-height: 1.4;
+    color: #1a1a1a;
+    background: #ffffff;
+  }
+
+  /* ---- Header ---- */
+  .header {
+    border-bottom: 2.5px solid #1a1a1a;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+  }
+
+  .header-name {
+    font-size: 22pt;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #0d0d0d;
+    line-height: 1.1;
+  }
+
+  .header-title {
+    font-size: 10.5pt;
+    font-weight: 400;
+    color: #444;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-top: 3px;
+    margin-bottom: 7px;
+  }
+
+  .header-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 18px;
+    font-size: 8.5pt;
+    color: #333;
+  }
+
+  .header-contact a {
+    color: #1a56db;
+    text-decoration: none;
+  }
+
+  /* ---- Section Titles ---- */
+  .section {
+    margin-bottom: 13px;
+  }
+
+  .section-title {
+    font-size: 10pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #0d0d0d;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 2px;
+    margin-bottom: 8px;
+  }
+
+  /* ---- Summary ---- */
+  .summary p {
+    font-size: 9.5pt;
+    color: #222;
+    line-height: 1.45;
+  }
+
+  /* ---- Skills Grid ---- */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 24px;
+  }
+
+  .skill-category {
+    margin-bottom: 4px;
+  }
+
+  .skill-category-title {
+    font-weight: 700;
+    font-size: 9pt;
+    color: #0d0d0d;
+    margin-bottom: 2px;
+  }
+
+  .skill-category p {
+    font-size: 8.8pt;
+    color: #333;
+    line-height: 1.4;
+  }
+
+  /* ---- Experience ---- */
+  .job {
+    margin-bottom: 11px;
+  }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1px;
+  }
+
+  .job-title {
+    font-size: 10pt;
+    font-weight: 700;
+    color: #0d0d0d;
+  }
+
+  .job-dates {
+    font-size: 8.5pt;
+    color: #555;
+    white-space: nowrap;
+    margin-left: 8px;
+    flex-shrink: 0;
+  }
+
+  .job-org {
+    font-size: 9pt;
+    color: #444;
+    font-style: italic;
+    margin-bottom: 4px;
+  }
+
+  .job-bullets {
+    padding-left: 14px;
+    margin: 0;
+  }
+
+  .job-bullets li {
+    font-size: 9pt;
+    color: #1a1a1a;
+    margin-bottom: 2.5px;
+    line-height: 1.4;
+  }
+
+  /* ---- Projects ---- */
+  .project {
+    margin-bottom: 10px;
+  }
+
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1px;
+  }
+
+  .project-title {
+    font-size: 10pt;
+    font-weight: 700;
+    color: #0d0d0d;
+  }
+
+  .project-tag {
+    font-size: 8pt;
+    color: #555;
+    font-style: italic;
+  }
+
+  .project-link {
+    font-size: 8pt;
+    color: #1a56db;
+    text-decoration: none;
+  }
+
+  .project-desc {
+    font-size: 9pt;
+    color: #1a1a1a;
+    line-height: 1.4;
+    margin-bottom: 2px;
+  }
+
+  .project-stack {
+    font-size: 8pt;
+    color: #555;
+  }
+
+  /* ---- Education / Certs ---- */
+  .edu-item {
+    margin-bottom: 6px;
+  }
+
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .edu-title {
+    font-size: 9.5pt;
+    font-weight: 700;
+    color: #0d0d0d;
+  }
+
+  .edu-dates {
+    font-size: 8.5pt;
+    color: #555;
+  }
+
+  .edu-org {
+    font-size: 9pt;
+    color: #444;
+    font-style: italic;
+  }
+
+  /* ---- Two-column layout for bottom ---- */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 28px;
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<div class="header">
+  <div class="header-name">Austin Smith</div>
+  <div class="header-title">AI Pipeline Engineer &nbsp;|&nbsp; OSINT Analyst &nbsp;|&nbsp; Quantitative Research</div>
+  <div class="header-contact">
+    <span>Arkansas, USA</span>
+    <span><a href="mailto:austinwarriors5@gmail.com">austinwarriors5@gmail.com</a></span>
+    <span><a href="https://github.com/Leerrooy95">github.com/Leerrooy95</a></span>
+    <span><a href="https://regulatedfriction.me">regulatedfriction.me</a></span>
+    <span><a href="https://store.regulatedfriction.me">store.regulatedfriction.me</a></span>
+    <span><a href="https://leerrooy95.github.io">leerrooy95.github.io</a></span>
+  </div>
+</div>
+
+<!-- ============ PROFESSIONAL SUMMARY ============ -->
+<div class="section summary">
+  <div class="section-title">Professional Summary</div>
+  <p>
+    AI pipeline engineer and OSINT analyst with 10+ years of combined experience in physical reconnaissance, high-security observation, and digital intelligence research. Trained as an Army Cavalry Scout (19D) and seasoned across federal, state, and private security environments. Since October 2025, independently built and shipped two commercial products — a live SaaS mechanism classifier (<em>Friction Breaker</em>) and a configurable OSINT intelligence pipeline sold at $50/unit — alongside 15+ open-source repositories with reproducible, statistically rigorous findings. Available for contract work in custom pipeline development, procurement automation, document processing systems, and AI-powered research tools.
+  </p>
+</div>
+
+<!-- ============ CORE COMPETENCIES ============ -->
+<div class="section">
+  <div class="section-title">Core Competencies</div>
+  <div class="skills-grid">
+
+    <div class="skill-category">
+      <div class="skill-category-title">OSINT &amp; Threat Intelligence</div>
+      <p>Open-source intelligence collection &amp; analysis · Adversarial influence tracking · Multi-platform narrative monitoring · Source triangulation &amp; verification · Threat assessment &amp; risk documentation · Temporal pattern detection</p>
+    </div>
+
+    <div class="skill-category">
+      <div class="skill-category-title">Quantitative Methods</div>
+      <p>Pearson &amp; Spearman correlation · Permutation &amp; bootstrap testing · Granger causality &amp; lag analysis · K-means &amp; hierarchical clustering · Chi-square &amp; Mann-Whitney U · Causal inference (DoWhy)</p>
+    </div>
+
+    <div class="skill-category">
+      <div class="skill-category-title">AI &amp; Automation</div>
+      <p>Multi-agent LLM pipelines (Claude, Llama Scout 17B) · GLiNER2 local entity extraction (zero API cost) · Brave Search API + web-grounded fact verification · Document parsing (PDF/DOCX/OCR) · AI safety &amp; bias detection · Prompt engineering &amp; verification layers</p>
+    </div>
+
+    <div class="skill-category">
+      <div class="skill-category-title">Development &amp; Data Engineering</div>
+      <p>Python (Pandas, SciPy, Statsmodels, NetworkX) · Flask with CSRF, rate limiting &amp; CSP headers · Chart.js dashboards · PyVis interactive graph rendering · GitHub Actions CI/CD · DigitalOcean deployment · Git / GitHub (15+ public repos)</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- ============ EXPERIENCE ============ -->
+<div class="section">
+  <div class="section-title">Experience</div>
+
+  <!-- Job 1 -->
+  <div class="job">
+    <div class="job-header">
+      <div class="job-title">Independent Developer &amp; OSINT Researcher</div>
+      <div class="job-dates">October 2025 – Present</div>
+    </div>
+    <div class="job-org">Self-Directed · store.regulatedfriction.me</div>
+    <ul class="job-bullets">
+      <li>Built and shipped <strong>Friction Breaker</strong> — a live commercial SaaS mechanism classifier with Discord OAuth, tiered subscription pricing, and a 56-mechanism taxonomy across 8 categories; powered by Claude Sonnet 4.6 + GLiNER2 local entity extraction.</li>
+      <li>Designed an <strong>8-stage government bid solicitation pipeline</strong> with PDF/DOCX/OCR document parsing, structured requirement extraction, bid/no-bid decision logic, trade-specific pricing engines, and portal submission automation — sold and deployed for a Missouri contracting business.</li>
+      <li>Built and commercialized a <strong>10-stage OSINT intelligence pipeline</strong> (deploy in under 15 minutes, $50 one-time purchase) using Brave Search API + Claude, GLiNER2 + Llama Scout 17B dual-engine entity extraction, and NetworkX + PyVis interactive relationship graphs; runs twice daily via GitHub Actions with no servers or databases.</li>
+      <li>Identified statistically significant correlations (r = 0.6196, p = 0.0004) between geopolitical friction events and institutional responses across 66 verified event pairs; validated through 16 independent stress tests using Granger causality, permutation testing, bootstrap, ANOVA, and DoWhy causal inference.</li>
+      <li>Conducted quantitative AI bias research documenting a 207:1 keyword-frequency disparity across AI platforms, with cross-platform verification and documented asymmetric guardrail application.</li>
+      <li>Built a legislative transparency tool (Flask + Anthropic API) with custom meaning drift detection that automatically flags intent shifts in legal language translations; deployed live on Render.</li>
+      <li>Deployed automated Federal Register and DOJ press release scrapers on DigitalOcean feeding a live intelligence dashboard; built BYOK OSINT chatbot with CSRF protection, rate limiting, and encrypted session management.</li>
+      <li>Published 15+ public repositories with reproducible findings, open datasets, and full methodology — including openly documented failed predictions and methodological corrections.</li>
+    </ul>
+  </div>
+
+  <!-- Job 2 -->
+  <div class="job">
+    <div class="job-header">
+      <div class="job-title">Security &amp; Reconnaissance Professional</div>
+      <div class="job-dates">2014 – 2024</div>
+    </div>
+    <div class="job-org">US Army National Guard · Arkansas Department of Corrections · G4S Security</div>
+    <ul class="job-bullets">
+      <li><strong>Cavalry Scout (19D), Army National Guard</strong> — Enlisted at 17; trained at Fort Benning in field reconnaissance, surveillance, and threat assessment in high-stress, time-critical environments. Built core competencies in observation, documentation, and separating actionable intelligence from background noise.</li>
+      <li><strong>Correctional Officer, State Corrections</strong> — Monitored and documented behavioral patterns in a controlled, high-security environment; developed rigorous observational discipline and situational awareness under institutional accountability frameworks.</li>
+      <li><strong>Physical Security Specialist, G4S</strong> — Conducted environmental monitoring, incident documentation, and protocol-driven threat response for private security operations.</li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- ============ FEATURED PROJECTS ============ -->
+<div class="section">
+  <div class="section-title">Featured Projects</div>
+
+  <div class="project">
+    <div class="project-header">
+      <div class="project-title">Friction Breaker <span class="project-tag">— Commercial SaaS · Live</span></div>
+      <a class="project-link" href="https://regulatedfriction.me">regulatedfriction.me</a>
+    </div>
+    <div class="project-desc">
+      Live mechanism classifier and countermeasure engine. Users paste text (bills, executive orders, news articles) and the pipeline identifies mechanisms across a 56-entry, 8-category taxonomy, flags novel mechanisms not yet catalogued, and generates countermeasure analysis with feasibility and durability scoring. Discord OAuth, tiered subscription pricing, BYOK open-source version.
+    </div>
+    <div class="project-stack">Stack: Python · Flask · Claude Sonnet 4.6 · GLiNER2 · Discord OAuth · Patreon · Creem</div>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <div class="project-title">Government Bid Solicitation Pipeline <span class="project-tag">— Procurement Automation</span></div>
+      <a class="project-link" href="mailto:austinwarriors5@gmail.com">Request Demo</a>
+    </div>
+    <div class="project-desc">
+      8-stage automated bid response system for small service contractors. Ingests solicitations from email or portal upload; parses PDFs, DOCX, and scanned documents via OCR; extracts structured requirements (insurance, bonding, forms, pricing format); applies configurable bid/no-bid decision rules; builds trade-specific pricing from templates; and generates 95%-ready bid packages with compliance checklist. Configurable for any trade, service area, or state portal.
+    </div>
+    <div class="project-stack">Stack: Python · pdfplumber · python-docx · OCR · Claude · GitHub Actions</div>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <div class="project-title">The Regulated Friction Project <span class="project-tag">— Live OSINT Dashboard</span></div>
+      <a class="project-link" href="https://regulatedfriction.me">regulatedfriction.me</a>
+    </div>
+    <div class="project-desc">
+      Automated intelligence pipeline tracking temporal correlations between geopolitical "friction" events and institutional capital flows. Processed 8 years of data across 66 verified event–response pairs; identified r = 0.6196 (p = 0.0004) with a 7-day median response lag. Validated through 16 independent stress tests. Nine-tab live dashboard with interactive entity graphs, convergence detection, and public prediction tracker.
+    </div>
+    <div class="project-stack">Stack: Python · Brave Search API · Claude · GLiNER2 · Llama Scout 17B · NetworkX · PyVis · Chart.js · GitHub Actions</div>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <div class="project-title">UVB-76 Structured Signal Analysis <span class="project-tag">— Signal Intelligence</span></div>
+      <a class="project-link" href="https://github.com/Leerrooy95/UVB-76-Structured-Signal-Analysis">GitHub</a>
+    </div>
+    <div class="project-desc">
+      15-year empirical analysis of Russia's UVB-76 shortwave station transmission timing patterns. K-means clustering and permutation testing (p &lt; .0005) identified four distinct operational modes and a documented shift from training-cycle patterns to event-driven signaling correlated with real-world military operations.
+    </div>
+    <div class="project-stack">Stack: Python · K-means Clustering · Permutation Testing · Time Series Analysis</div>
+  </div>
+
+</div>
+
+<!-- ============ EDUCATION / TRAINING ============ -->
+<div class="section">
+  <div class="section-title">Training &amp; Education</div>
+
+  <div class="edu-item">
+    <div class="edu-header">
+      <div class="edu-title">Associate of Applied Science — Computer Information Systems</div>
+      <div class="edu-dates">Fall 2025 – Present</div>
+    </div>
+    <div class="edu-org">Arkansas College &nbsp;·&nbsp; Academic Honors, First Semester</div>
+  </div>
+
+  <div class="edu-item">
+    <div class="edu-header">
+      <div class="edu-title">Cavalry Scout (19D MOS) — Advanced Individual Training</div>
+      <div class="edu-dates">2012</div>
+    </div>
+    <div class="edu-org">Fort Benning, Georgia &nbsp;·&nbsp; US Army National Guard</div>
+  </div>
+
+  <div class="edu-item">
+    <div class="edu-header">
+      <div class="edu-title">Self-Directed Technical Training — Python, AI Engineering &amp; Quantitative Methods</div>
+      <div class="edu-dates">2025 – Present</div>
+    </div>
+    <div class="edu-org">Independent Study &nbsp;·&nbsp; Applied across 15+ public repositories and 2 commercial products</div>
+  </div>
+
+</div>
+
+</body>
+</html>
